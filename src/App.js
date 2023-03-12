@@ -84,7 +84,7 @@ class App extends Component {
         {/* {this.state.modalIsOpen ? (
           <Modal show={this.state.modalIsOpen} closed={this.closeModal} />
         ) : null} */}
-        <Transition
+        {/* <Transition
           mountOnEnter
           unmountOnExit
           in={this.state.modalIsOpen}
@@ -94,7 +94,8 @@ class App extends Component {
             // <Modal show={this.state.modalIsOpen} closed={this.closeModal} />
             <Modal show={state} closed={this.closeModal} />
           )}
-        </Transition>
+        </Transition> */}
+        <Modal show={this.state.modalIsOpen} closed={this.closeModal} />
         {/* {this.state.modalIsOpen ? (
           <Backdrop
             show={this.state.modalIsOpen}
