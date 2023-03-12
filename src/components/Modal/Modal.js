@@ -26,8 +26,20 @@ const modal = props => {
   //   </div>
   // );
 
+  // ANIMATION TIMINGS
+  const animationTiming = {
+    enter: 400,
+    exit: 1000,
+  };
+
   return (
-    <Transition mountOnEnter unmountOnExit in={props.show} timeout={300}>
+    // <Transition mountOnEnter unmountOnExit in={props.show} timeout={300}>
+    <Transition
+      mountOnEnter
+      unmountOnExit
+      in={props.show}
+      timeout={animationTiming}
+    >
       {state => {
         const cssClasses = [
           'Modal',
