@@ -30,15 +30,14 @@
   /* display: block; */
   /* opacity: 1;
     transform: translateY(0); */
-  /* animation: openModal 0.4s ease-out forwards; */
+  animation: openModal 0.4s ease-out forwards;
 }
 
 .ModalClosed {
   /* display: none; */
   /* opacity: 0;
     transform: translateY(-100%); */
-  /* animation: closeModal 0.4s ease-out forwards; */
-  /* animation: closeModal 1s ease-outforwards; */
+  animation: closeModal 0.4s ease-out forwards;
 }
 
 .fade-slide-enter {
@@ -46,7 +45,7 @@
 
 /* To play the actual animation */
 .fade-slide-enter-active {
-  animation: openModal 0.4s ease-out forwards;
+  /* animation: openModal 0.4s ease-out forwards; */
 }
 
 .fade-slide-exit {
@@ -54,7 +53,7 @@
 
 /* To play the actual animation */
 .fade-slide-exit-active {
-  animation: closeModal 1s ease-out forwards;
+  /* animation: closeModal 1s ease-out forwards; */
 }
 
 @keyframes openModal {
