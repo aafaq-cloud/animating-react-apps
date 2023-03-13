@@ -30,7 +30,7 @@ class App extends Component {
       <div className="App">
         <h1>React Animations</h1>
 
-        {/* <TodoList /> */}
+        <TodoList />
         <BoostrapModal />
         <Fade inProp={this.state.showBlock} />
 
