@@ -7,7 +7,8 @@ import './App.css';
 import Modal from './components/Modal/Modal';
 import Backdrop from './components/Backdrop/Backdrop';
 import List from './components/List/List';
-import CSSTransition from './components/UI/BoostrapModal';
+import BoostrapModal from './components/UI/BoostrapModal';
+import TodoList from './components/List/TodoList';
 import Fade from './components/UI/Fade';
 
 class App extends Component {
@@ -29,7 +30,8 @@ class App extends Component {
       <div className="App">
         <h1>React Animations</h1>
 
-        <CSSTransition />
+        {/* <TodoList /> */}
+        <BoostrapModal />
         <Fade inProp={this.state.showBlock} />
 
         <button
